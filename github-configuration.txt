@@ -1,0 +1,19 @@
+for desktop GitHub :https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop
+
+for git: https://git-scm.com/download/win
+
+global configurations 
+
+
+git config --global user.name "yourname"
+git config --global user.email "yourvalidemeil"
+
+
+
+echo "# demo-session-1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sankpalkalyani93/demo-session-1.git
+git push -u origin main
